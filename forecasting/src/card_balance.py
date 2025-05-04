@@ -659,3 +659,5 @@ def main(file_path=None):
     results, trained_models, X_train, X_test, y_train, y_test = build_and_evaluate_models(
         X, y, numeric_features, categorical_features
     )
+if __name__ == "__main__":
+    main()
